@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!use code  type html:5 and then press the Tab key to get html boilerplate>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Trivia Game</title>
+    <style>
+        body {
+        
+          background-color: #f0f0f0; /* Light gray background *  
+          font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-weight: bold; 
+          text-align: center; /* This replaces the <center> tag */
+        }
+        h1 {
+            font-weight: normal; /* Reset font weight for h1 */
+        }
+        .boxed-text {
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+        }
+        .centered-image {
+            width: 500px; /* Adjust the width as needed */
+            height: auto; /* Maintains the aspect ratio */
+        }
+        .centered-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="centered-content">
+
+    <span class="boxed-text">Play the Jazz Trivia Game!</span>
+    
+    <p style="font-size: 40px;">Test Your Knowledge</p>
+
+    <img src="https://png.pngtree.com/png-clipart/20230913/original/pngtree-jazz-clipart-jazz-band-cartoon-character-illustration-vector-png-image_11067185.png" alt ="jazz image" class ="centered-image">
+    
+      
+    </div>
+    
+    
+
+    
+</body>
+</html>
+
+

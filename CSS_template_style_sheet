@@ -1,0 +1,25 @@
+<!template for css style sheet this will be linked to the html document each element references back to the html>
+body {
+    background-color: red;
+}
+h1{
+    color: white;
+}
+p{
+    background-color:gray;
+     color:white;
+}
+#p{
+    color:powderblue
+    font-family: "consolas", sans-serif;
+}
+#p1{
+    color:green;
+}
+.odd {
+    color:yellow;
+}
+.even {
+
+    color:aquq;
+}

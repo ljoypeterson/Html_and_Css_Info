@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Hair Website Info</title>
+    <link rel="stylesheet" href="style.css"> <!this refers to the style sheet>
+</head>
+
+    <!--
+        1. inline
+        2. internal
+        3. external
+        you will reference this back to the css document
+    -->
+    <h1> Hair site </h1>
+    <p id="p1" class="odd"> this is for hair and page 2 </p>
+    <p id="p2" class="odd"> this is for hair now go there </p>
+    <p id="p3" class="even">this is for hair maybe you can think </p>
+    <p id="p4" class="even"> this is for hair now go there </p>
+    
+</body>
+</html>

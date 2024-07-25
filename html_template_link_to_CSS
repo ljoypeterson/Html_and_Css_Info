@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Hair Website Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="https://google.com">Google.com</a>
+
+    <!--
+        1. inline
+        2. internal
+        3. external
+    -->
+    <h1> Hair site </h1>
+    <!margins and space around element>
+    
+    <img src="jazz_trio.png"width="125px">
+    <img src="jazz_violin.jpg"width="125px">
+    <img src="man_sax.jpg"width="125px">
+
+    <div class="box">Box1</div>
+    <div class="box">Box2</div>
+  
+    <div id = "box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum illo, eaque odio nam nulla laboriosam molestias repellendus. Voluptatem, explicabo consectetur fugit facere accusantium nisi fuga non ipsum eos praesentium?</div>
+    <div id = "box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quis harum voluptatibus minus quasi saepe consequuntur repellendus dolorum rerum quam mollitia, officiis, laboriosam iure aut ipsum ducimus error! Unde, dignissimos!</div>
+    
+    <p id="p1" class="odd"> this is for hair and page 2 </p>
+    <p id="p2" class="odd"> this is for hair now go there </p>
+    <p id="p3" class="even">this is for hair maybe you can think </p>
+    <p id="p4" class="even"> this is for hair now go there </p>
+    
+</body>
+</html>

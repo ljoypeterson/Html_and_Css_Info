@@ -20,6 +20,15 @@ button.active{
 }
 body{
     margin: 0px
+/*make backfround gradient to different versions
+body {
+    background: linear-gradient(to right, red, yellow); /* Horizontal gradient */
+}
+
+.element-class {
+    background: linear-gradient(to bottom, red, yellow); /* Vertical gradient */
+}
+
 }
 img{
     float:right;

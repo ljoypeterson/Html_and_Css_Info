@@ -1,0 +1,133 @@
+/*name file style.css and will reference in html */
+a:link{
+    color:red;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:tomato;
+}
+a:active{
+    color:yellow;
+}
+button.hover{
+    background-color: lightgrey;
+}
+button.active{
+    background-color: blue'
+}
+body{
+    margin: 0px
+}
+img{
+    float:right;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: tomato;
+
+    float: left;
+    /*use clear to stop floating*/
+}
+
+p{
+    clear:left;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    position:relative
+    /*position:fixed box stays no matter what */
+    /*you can change the numbers 
+    /*position:sticky  it sticks to the top 
+     top: 100px;
+     left: 50px*/
+    top: 150px
+    left: 50px  this is a reserved space */
+    transform: translate(50px);
+}
+
+#box2{
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 22px;
+    background: purple;
+   /* margin: 50px */
+   margin-left: 50%
+   /*margin-left: auto;  will push element to right *, same for
+   margin right /
+   animation: mySlide;
+   animation-duration: 5s;
+}
+@keyframes mySlide{
+    from{margin-left:100%;}
+    to{margin-left: 0%;}
+}
+body {
+    background-image:url("jazz_line_drawing.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-family:"Baskervville", "conslas";
+    font-size:72px;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style:double;
+    border-left-width: 10px;
+    background: linear-gradient(to top,skyblue, red);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    text-shadow: 0px 5px 0px yellow;
+    box-shadow: 5px 5px 5px green;
+}
+p{
+    border-style:double;
+    border-width:5px;
+    border-color:gold;
+    border-radius: 10px; //higher the number, more round
+    padding: 5x; //this is to create spacing btwn word and border
+    /*background-color:rgba(80, 80, 158, 0.24);
+     color:white;*/
+}
+#p{
+    color:powderblue
+    font-family: "consolas", sans-serif;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+}
+#p1{
+    color:green;
+    background-color:rgba(158, 80, 139, 0.24);
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size:24px;
+}
+.odd {
+    color:rgba(255, 0, 0, 0.726);
+}
+.even {
+
+    color:aqua;
+}

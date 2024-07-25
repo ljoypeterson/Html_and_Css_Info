@@ -1,4 +1,5 @@
 /*name file style.css and will reference in html */
+/*link is to change color of url links*/
 a:link{
     color:red;
 }
@@ -94,6 +95,7 @@ h1{
     border-bottom-style: dotted;
     border-left-style:double;
     border-left-width: 10px;
+     /*This is to make background gradient */
     background: linear-gradient(to top,skyblue, red);
     background-repeat:no-repeat;
     background-attachment: fixed;
